@@ -1,0 +1,28 @@
+{
+	"name": "deno_hono_solid_ssr",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"scripts": {
+		"build": "rollup --config rollup.config.js",
+		"preview": "cd dist && deno run --allow-net --allow-read entry_server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@rollup/plugin-babel": "^6.0.3",
+		"@rollup/plugin-commonjs": "^24.1.0",
+		"@rollup/plugin-node-resolve": "^15.0.2",
+		"@rollup/plugin-typescript": "^11.1.0",
+		"babel-preset-solid": "^1.7.3",
+		"rollup": "^3.20.2",
+		"solid-js": "^1.7.3",
+		"tslib": "^2.5.0",
+		"typescript": "^5.0.4"
+	},
+	"dependencies": {
+		"@babel/core": "^7.21.4",
+		"@babel/preset-typescript": "^7.21.4"
+	}
+}
